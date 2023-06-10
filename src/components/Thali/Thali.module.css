@@ -1,0 +1,53 @@
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.common {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: #fafafa;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+.menu {
+  background-image: url("https://www.onmanorama.com/content/dam/mm/en/food/features/images/2021/5/23/indian-thali.jpg.transform/845x440/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  color: red;
+  background-color: #4c1515;
+  font-size: 35px;
+  border-bottom: 5px double #f90bd9;
+  border-top: 5px double #f90bd9;
+  font-weight: 1000;
+}
+.thaliItem {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.image1 {
+  height: 75px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 3px solid #0d0c0d;
+}
+.text1 {
+  color: red;
+
+  font-size: 35px;
+
+  font-weight: 1000;
+}
+.button {
+  margin-right: 3px;
+}
